@@ -1,0 +1,303 @@
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+
+.back-button{
+  color:white
+}
+body {
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9fbfd;
+}
+
+/* ===== Containers ===== */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+h1, h2, h3, h4 {
+  color: #003366;
+}
+
+/* ===== Header ===== */
+.header {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+/* ===== About Section ===== */
+.about-me {
+  background: white;
+  padding: 60px 0;
+}
+
+.about-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-text {
+  text-align: center;
+  max-width: 700px;
+}
+
+.about-text h2 {
+  margin-bottom: 15px;
+  color: #004c99;
+}
+
+.about-text p {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.about-img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 4px solid #0077cc;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Experience Section ===== */
+#experience {
+  background: #e9f3fb;
+}
+
+#experience h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.experience-box {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 119, 204, 0.2);
+}
+
+.experience-box h3 {
+  color: #005fa3;
+  margin-bottom: 8px;
+}
+
+.experience-box h4 {
+  color: #0077cc;
+  font-weight: normal;
+  margin-bottom: 12px;
+}
+
+.experience-box p {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.experience-box ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #333;
+}
+
+/* ===== Projects Section ===== */
+#projects {
+  background: white;
+  text-align: center;
+}
+
+#projects h2 {
+  margin-bottom: 40px;
+  color: #004c99;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 25px;
+}
+
+.project-box {
+  background: #f0f8ff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.project-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 119, 204, 0.15);
+
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-image {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+
+}
+
+.project-box img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.project-box h3 {
+  color: #005fa3;
+  margin-bottom: 10px;
+}
+
+.project-box p {
+  color: #444;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #0077cc;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #005fa3;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer a {
+  color: #e0f0ff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin: 15px 0;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+.footer-note {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+/* ===== Responsive Design ===== */
+@media (min-width: 768px) {
+  .about-grid {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .about-text {
+    flex: 1;
+  }
+
+  .about-img {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 1.9rem;
+  }
+
+  .header p {
+    font-size: 1rem;
+  }
+
+  .project-grid, .experience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-box, .experience-box {
+    text-align: center;
+  }
+
+  .about-img img {
+    width: 200px;
+    height: 200px;
+  }
+}

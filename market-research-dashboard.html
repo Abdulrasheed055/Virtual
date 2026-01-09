@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employee Attendance Dashboard | Portfolio</title>
+
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/project-detail.css" />
+  <style>
+    /* Custom styles for cards, badges, and accordion */
+    .metrics-cards { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1rem 0; }
+    .metrics-cards .card { flex: 1 1 150px; background: #f5f5f5; padding: 1rem; border-radius: 8px; text-align: center; font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .skills-badges span { display: inline-block; background: #e0f7fa; color: #006064; padding: 0.4rem 0.8rem; margin: 0.3rem; border-radius: 20px; font-weight: 600; }
+    .accordion { margin: 1rem 0; }
+    .accordion-item { background: #f9f9f9; border-radius: 5px; margin-bottom: 0.5rem; }
+    .accordion-title { cursor: pointer; padding: 0.8rem 1rem; font-weight: bold; }
+    .accordion-content { display: none; padding: 0.8rem 1rem; border-top: 1px solid #ddd; }
+    .cta-button { display: inline-block; background: #006064; color: #fff; padding: 0.8rem 1.5rem; border-radius: 5px; text-decoration: none; margin-top: 1rem; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="container">
+      <h1>Employee Attendance & Leave Tracker Dashboard</h1>
+      <p>Excel Automation Project for HR & Team Management</p>
+    </div>
+  </header>
+
+  <!-- ===== Project Detail Section ===== -->
+  <section class="project-detail">
+    <div class="container">
+      <img src="./image/dash.jpg" alt="Employee Attendance Dashboard Preview" style="width:100%; border-radius:8px;"/>
+      <img src="./image/employee.jpg" alt="Employee Attendance Dashboard Preview" style="width:100%; border-radius:8px;"/>
+      <img src="./image/Leavebalance.jpg" alt="Employee Attendance Dashboard Preview" style="width:100%; border-radius:8px;"/>
+      <img src="./image/Attendance.jpg" alt="Employee Attendance Dashboard Preview" style="width:100%; border-radius:8px;"/>
+
+      <h2>Overview</h2>
+      <p>
+        The <strong>Employee Attendance & Leave Tracker Dashboard</strong> is a fully automated 
+        Excel-based system that helps small offices or teams track employee presence, lateness, leave, 
+        and absenteeism. It provides interactive dashboards with real-time KPIs for HR or team leaders.
+      </p>
+
+      <!-- Key Metrics Cards -->
+      <h2>Key Metrics</h2>
+      <div class="metrics-cards">
+        <div class="card">👥 Total Employees</div>
+        <div class="card">✅ Total Present</div>
+        <div class="card">❌ Total Absent</div>
+        <div class="card">🏖️ Total Leave</div>
+        <div class="card">⏰ Total Late</div>
+      </div>
+
+      <!-- Skills Applied -->
+      <h2>Skills Applied</h2>
+      <div class="skills-badges">
+        <span>Excel</span>
+        <span>XLOOKUP</span>
+        <span>COUNTIFS</span>
+        <span>Dashboard Design</span>
+        <span>Data Analysis</span>
+        <span>Automation</span>
+        <span>Conditional Formatting</span>
+      </div>
+
+      <!-- Workflow Accordion -->
+      <h2>Workflow & Implementation Steps</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-title">1️⃣ Data Setup</div>
+          <div class="accordion-content">
+            Created structured tables for Employees, Attendance, Leave Balances, and Settings. Applied 
+            Data Validation for clean inputs (dropdowns: Present, Absent, Leave, Late).
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">2️⃣ Formula Automation</div>
+          <div class="accordion-content">
+            Used advanced Excel formulas like XLOOKUP, COUNTIFS, and IF for automatic calculations. 
+            Linked Employee Names to Employee IDs dynamically. Built a Leave Balance Tracker that auto-updates.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">3️⃣ Dashboard Design</div>
+          <div class="accordion-content">
+            Designed a one-page interactive dashboard summarizing key metrics with charts, conditional formatting, 
+            and color codes for easy visualization.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">4️⃣ Data Visualization</div>
+          <div class="accordion-content">
+            Added column charts to compare attendance categories across employees. Used modern icons 
+            and clear UI layout for professional presentation.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title">5️⃣ Testing & Optimization</div>
+          <div class="accordion-content">
+            Tested refresh and data updates to eliminate broken references. Optimized formulas for smooth performance.
+          </div>
+        </div>
+      </div>
+
+      <!-- Why this Project Matters -->
+      <h2>Impact</h2>
+      <p>
+        This dashboard saves HR hours of manual work, provides real-time insights into team attendance, ensures 
+        accurate leave tracking, and supports small business operations with data-driven decision making.
+      </p>
+
+      <!-- Call-to-Action -->
+      <p>📩 Need help with automating Excel dashboards or reports?</p>
+      <a href="mailto:abdulrasheedaminu@gmail.com" class="cta-button">Hire Me</a>
+
+      <a href="index.html#projects" class="back-button" style="display:block; margin-top:1rem;">← Back to Portfolio</a>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>📩 Let's Connect — <a href="mailto:abdulrasheedaminu@gmail.com">abdulrasheedaminu@gmail.com</a></p>
+      <div class="social-icons">
+        <a href="#"><img src="./image/linkedin.png" alt="LinkedIn" /></a>
+        <a href="#"><img src="./image/github.png" alt="GitHub" /></a>
+        <a href="#"><img src="./image/twitter.png" alt="Twitter" /></a>
+      </div>
+      <p class="footer-note">© 2025 Aminu Abdulrasheed | Virtual Assistant Portfolio</p>
+    </div>
+  </footer>
+
+  <!-- Accordion Script -->
+  <script>
+    const accordionTitles = document.querySelectorAll('.accordion-title');
+    accordionTitles.forEach(title => {
+      title.addEventListener('click', () => {
+        const content = title.nextElementSibling;
+        const isOpen = content.style.display === 'block';
+        document.querySelectorAll('.accordion-content').forEach(c => c.style.display = 'none');
+        content.style.display = isOpen ? 'none' : 'block';
+      });
+    });
+  </script>
+
+</body>
+</html>

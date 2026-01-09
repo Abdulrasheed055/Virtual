@@ -1,0 +1,227 @@
+/* ===== Project Detail Page Styling ===== */
+
+.project-detail {
+  background: #ffffff;
+  padding: 60px 0;
+}
+
+.project-detail .container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.project-detail img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-detail h2 {
+  color: #004c99;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.project-detail p {
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.project-detail ul {
+  margin-left: 20px;
+  color: #333;
+  line-height: 1.8;
+}
+
+.project-detail ul li {
+  margin-bottom: 8px;
+}
+
+/* ===== Back Button ===== */
+.back-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 18px;
+  background: #0077cc;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.back-button:hover {
+  background: #005fa3;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  .project-detail .container {
+    width: 90%;
+    text-align: center;
+  }
+
+  .project-detail ul {
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .project-detail img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-detail h2 {
+    font-size: 1.2rem;
+  }
+
+  .project-detail p {
+    font-size: 0.95rem;
+  }
+
+  .back-button {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+}
+
+
+/* communication */
+/* Responsive container */
+.container {
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+/* Images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Mobile adjustments */
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Responsive images */
+.project-detail img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+/* Mobile & Tablet */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .header p {
+    text-align: center;
+    font-size: 0.95rem;
+  }
+
+  .project-detail h2 {
+    font-size: 1.3rem;
+  }
+
+  .footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .project-detail p,
+  .project-detail li {
+    font-size: 0.95rem;
+  }
+}
+
+/* ===== Project Detail Layout ===== */
+.project-detail {
+  padding: 4rem 0;
+}
+
+.project-section {
+  margin-bottom: 3rem;
+}
+
+.project-section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.project-section p,
+.project-section ul {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* ===== Image Grid ===== */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+/* ===== Lists ===== */
+.project-section ul {
+  padding-left: 1.2rem;
+}
+
+.project-section li {
+  margin-bottom: 0.6rem;
+}
+
+/* ===== Back Button ===== */
+.back-button {
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 768px) {
+  .project-detail {
+    padding: 2.5rem 0;
+  }
+
+  .project-section h2 {
+    font-size: 1.5rem;
+  }
+}
